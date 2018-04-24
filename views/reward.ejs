@@ -1,0 +1,19 @@
+<%- include layouts/header.ejs %>
+
+    <div id="pages_maincontent" style="background-color: white; overflow: hidden;">
+
+    <div class="page_single layout_fullwidth_padding">
+        <div class="success_message">
+            <span>Thank You!</span>
+            <img src="/../images/icons/black/rocket.png" alt="" title="" />
+            <% if (message.length > 0) { %>
+            <p style="color: red"><%= message %></p>
+            <% } else { %>
+            <p >Your balance </br> just credited <%= reward_point %> point(s).</p>
+            <% } %>
+        </div>
+    </div>
+
+</div>
+
+<%- include layouts/footer.ejs %>

@@ -1,0 +1,138 @@
+<%- include layouts/header.ejs %>
+
+<div id="pages_maincontent" style="background-color: white">
+
+    <h2 class="page_title">MY EVENTS</h2>
+
+    <div class="page_single layout_fullwidth">
+
+        <div class="photo-categories">
+            <a href="#tab1p" class="tab-link active category-link">Up coming</a>
+            <a href="#tab2p" class="tab-link category-link">Recents</a>
+            <a href="#tab3p" class="tab-link category-link">Finished</a>
+        </div>
+
+
+        <div class="tabs-animated-wrap photos_tabs">
+            <div class="tabs">
+                <div id="tab1p" class="tab active">
+                    <div class="page_single layout_fullwidth_padding">
+
+                        <div class="list-block">
+                            <ul class="posts">
+                                <% if(events.length){
+                                for(var i = 0;i < events.length;i++) {
+                                 if (events[i].open_time > new Date()){%>
+                                <li class="swipeout">
+                                    <div class="swipeout-content item-content">
+                                        <div class="post_entry" style="width: 100%">
+                                            <div class="post_thumb"><a href="/myeventdetail/<%=events[i].event_code_view%>"><img style="width: 100%; height: 100%" src="<%=events[i].qr_code%>" alt="" title="" /></a></div>
+                                            <div class="post_details">
+                                                <div class="post_category"><a href="/myeventdetail/<%=events[i].event_code_view%>"><%=events[i].name%></a></div>
+                                                <a href="/myeventdetail/<%=events[i].event_code_view%>"><p style="font-size: 11px; line-height: 15px; padding-bottom: 0px"><%=(events[i].open_time).toLocaleString()%> - <%=events[i].closed_time.toLocaleString()%></p></a>
+                                                <p style="font-size: 11px; line-height: 15px; padding-bottom: 0px">Category: <%=events[i].category%></p>
+                                                <h2><a href="/myeventdetail/<%=events[i].event_code_view%>"><%=events[i].description%></a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swipeout-actions-right">
+                                        <a href="blog-single.html" class="action1"><img src="/../images/icons/black/message.png" alt="" title="" /></a>
+                                        <a href="#" class="action1 open-popup" data-popup=".popup-social"><img src="/../images/icons/black/like.png" alt="" title="" /></a>
+                                        <a href="#" class="action1 open-popup" data-popup=".popup-social"><img src="/../images/icons/white/contact.png" alt="" title="" /></a>
+                                    </div>
+                                </li>
+                                <%  }
+                                  }
+                                }
+                                %>
+                            </ul>
+                        </div>
+                        <% if(user!=null && user.role>1){ %>
+                        <div class="signup_bottom">
+                            <a href="/myevents/add" data-view=".view-main"><span>Create New Event</span></a>
+                        </div>
+                        <% } %>
+                        </br></br></br>
+                    </div>
+                </div>
+
+                <div id="tab2p" class="tab">
+                    <div class="page_single layout_fullwidth_padding">
+                        <div class="list-block">
+
+                            <ul class="posts">
+                                <% if(events.length){
+                                for(var i = 0;i < events.length;i++) {
+                                if (events[i].open_time <= new Date() && events[i].closed_time >= new Date()){%>
+                                <li class="swipeout">
+                                    <div class="swipeout-content item-content">
+                                        <div class="post_entry" style="width: 100%">
+                                            <div class="post_thumb"><a href="/myeventdetail/<%=events[i].event_code_view%>"><img style="width: 100%; height: 100%" src="<%=events[i].qr_code%>" alt="" title="" /></a></div>
+                                            <div class="post_details">
+                                                <div class="post_category"><a href="/myeventdetail/<%=events[i].event_code_view%>"><%=events[i].name%></a></div>
+                                                <a href="/myeventdetail/<%=events[i].event_code_view%>"><p style="font-size: 11px; line-height: 15px; padding-bottom: 0px"><%=(events[i].open_time).toLocaleString()%> - <%=events[i].closed_time.toLocaleString()%></p></a>
+                                                <p style="font-size: 11px; line-height: 15px; padding-bottom: 0px">Category: <%=events[i].category%></p>
+                                                <h2><a href="/myeventdetail/<%=events[i].event_code_view%>"><%=events[i].description%></a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swipeout-actions-right">
+                                        <a href="blog-single.html" class="action1"><img src="/../images/icons/black/message.png" alt="" title="" /></a>
+                                        <a href="#" class="action1 open-popup" data-popup=".popup-social"><img src="/../images/icons/black/like.png" alt="" title="" /></a>
+                                        <a href="#" class="action1 open-popup" data-popup=".popup-social"><img src="/../images/icons/white/contact.png" alt="" title="" /></a>
+                                    </div>
+                                </li>
+                                <%  }
+                                }
+                                }
+                                %>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab3p" class="tab">
+                    <div class="page_single layout_fullwidth_padding">
+                        <div class="list-block">
+                            <ul class="posts">
+                                <% if(events.length){
+                                for(var i = 0;i < events.length;i++) {
+                                if (events[i].closed_time < new Date()){%>
+                                <li class="swipeout">
+                                    <div class="swipeout-content item-content">
+                                        <div class="post_entry" style="width: 100%">
+                                            <div class="post_thumb"><a href="/myeventdetail/<%=events[i].event_code_view%>"><img style="width: 100%; height: 100%" src="<%=events[i].qr_code%>" alt="" title="" /></a></div>
+                                            <div class="post_details">
+                                                <div class="post_category"><a href="/myeventdetail/<%=events[i].event_code_view%>"><%=events[i].name%></a></div>
+                                                <a href="/myeventdetail/<%=events[i].event_code_view%>"><p style="font-size: 11px; line-height: 15px; padding-bottom: 0px"><%=(events[i].open_time).toLocaleString()%> - <%=events[i].closed_time.toLocaleString()%></p></a>
+                                                <p style="font-size: 11px; line-height: 15px; padding-bottom: 0px">Category: <%=events[i].category%></p>
+                                                <h2><a href="/myeventdetail/<%=events[i].event_code_view%>"><%=events[i].description%></a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swipeout-actions-right">
+                                        <a href="blog-single.html" class="action1"><img src="/../images/icons/black/message.png" alt="" title="" /></a>
+                                        <a href="#" class="action1 open-popup" data-popup=".popup-social"><img src="/../images/icons/black/like.png" alt="" title="" /></a>
+                                        <a href="#" class="action1 open-popup" data-popup=".popup-social"><img src="/../images/icons/white/contact.png" alt="" title="" /></a>
+                                    </div>
+                                </li>
+                                <%  }
+                                }
+                                }
+                                %>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="clearleft"></div>
+</div>
+
+<%- include layouts/footer.ejs %>

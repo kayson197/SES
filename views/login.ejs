@@ -1,0 +1,35 @@
+<%- include layouts/header.ejs %>
+
+            <div id="pages_maincontent" style="background-color: white; overflow: hidden;">
+
+                <h2 class="page_title">LOGIN</h2>
+                <% if (message.length > 0) { %>
+                    <center><p style="color: red"><%= message %></p></center>
+                <% } else if (activate_message.length > 0) {%>
+                    <center><p style="color: blue"><%= activate_message %></p></center>
+                <%} else { %>
+                    <center><p style="color: white">.</p></center>
+                <% } %>
+                <div class="loginform">
+                    <form action="/login" method="post">
+                        <input hidden type="text" name="event_code" value="<%= event_code %>" class="form_input " placeholder="Your Singtel Email" />
+                        <input type="text" name="username" value="<%= username %>" class="form_input required" placeholder="Your Singtel Email" required/>
+                        <input type="password" name="password" value="" class="form_input required" placeholder="Password" required/>
+
+                        <div class="forgot_pass"><a href="forgotpw" data-view=".view-main">Forgot Password?</a></div>
+                        <input type="submit" name="submit" class="form_submit" id="submit" value="SIGN IN" />
+                    </form>
+                    <div class="signup_bottom">
+                        <p>Don't have an account?</p>
+                        <a href="/signup" data-view=".view-main"><span>SIGN UP</span></a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<%- include layouts/footer.ejs %>

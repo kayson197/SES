@@ -1,0 +1,32 @@
+<%- include layouts/header.ejs %>
+
+            <div id="pages_maincontent" style="background-color: white; overflow: hidden;">
+
+                <h2 class="page_title">REGISTER</h2>
+                <% if (message.length > 0) { %>
+                <center><p style="color: red"><%= message %></p></center>
+                <% } else { %>
+                <center><p style="color: white">.</p></center>
+                <% } %>
+                <% if (signup_success != null && signup_success.length > 0) { %>
+                <center><p>You registed successfull</br>Please check your email to active account</p></center>
+                <% } else { %>
+                <div class="loginform">
+                    <form action="/signup" method="post">
+                        <!--<input type="text" name="username" value="" class="form_input required" placeholder="Username" />-->
+                        <input type="text" name="username" value="" class="form_input required" placeholder="Your Singtel Email" required/>
+                        <input type="password" name="password" value="" class="form_input required" placeholder="Password" required/>
+                        <input type="password" name="retype_password" value="" class="form_input required" placeholder="Retype Password" required/>
+                        <input type="submit" name="submit" class="form_submit" id="submit" value="SIGN UP" />
+                    </form>
+                </div>
+                <% } %>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<%- include layouts/footer.ejs %>
