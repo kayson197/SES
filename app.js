@@ -18,6 +18,7 @@ var passport = require('passport');
 var flash    = require('connect-flash');
 var connection  = require('express-myconnection');
 var mysql = require('mysql');
+var nodemailer = require('nodemailer');
 
 global.websiteurl = "https://sesm.herokuapp.com";
 
@@ -77,6 +78,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
+
+global.transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        user: 'sesm.sys@gmail.com',
+        pass: 'Aq123456'
+    }
+});
 
 
 // routes ======================================================================

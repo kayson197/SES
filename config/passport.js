@@ -2219,6 +2219,20 @@ module.exports = function(passport) {
                                             return done(err);
                                         else{
                                             var parameter = 'activate_link:'+websiteurl+'/activate/'+activation_code;
+                                            var mailOptions = {
+                                                from: 'sesm.sys@gmail.com',
+                                                to: newUserMysql.username,
+                                                subject: 'Sending Email using Node.js',
+                                                text: 'Activate link: '+websiteurl+'/activate/'+activation_code
+                                            };
+
+                                            transporter.sendMail(mailOptions, function(error, info){
+                                                if (error) {
+                                                    console.log(error);
+                                                } else {
+                                                    console.log('Email sent: ' + info.response);
+                                                }
+                                            });
                                             var insertEmail = "INSERT INTO ses_email ( receiver, email_template, parameter, status, created_time) values (?,?,?,?,now())";
                                             connection.query(insertEmail, [newUserMysql.username, 'activate_account',parameter, '0'], function (err, rows) {
                                                 if (err)
