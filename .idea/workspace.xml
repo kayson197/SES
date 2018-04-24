@@ -22,89 +22,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="passport.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/passport.js">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47521368">
-              <caret line="2224" column="82" selection-start-line="2224" selection-start-column="82" selection-end-line="2224" selection-end-column="82" />
+            <state vertical-scroll-proportion="9.884615">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding>
-                <element signature="e#898#68500#0" expanded="false" />
-                <element signature="e#15931#17388#0" expanded="false" />
-                <element signature="e#17451#18846#0" expanded="false" />
-                <element signature="e#24031#34109#0" expanded="false" />
-                <element signature="e#34325#35402#0" expanded="false" />
-                <element signature="e#35634#37595#0" expanded="false" />
-                <element signature="e#68521#70159#0" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <marker date="1524575332170" expanded="true" signature="5173:5213" placeholder="..." />
+                <marker date="1524575332170" expanded="true" signature="5214:6015" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/signup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layouts/header.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1454546">
-              <caret line="111" column="37" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/layouts/footer.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="83" column="56" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.63506263">
+              <caret line="86" column="67" selection-start-line="86" selection-start-column="67" selection-end-line="86" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="email.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/email.js">
+      <file leaf-file-name="jquery.fitvids.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/jquery.fitvids.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1516620431000" expanded="true" signature="685:1368" placeholder="..." />
+                <marker date="1516620431000" expanded="true" signature="730:880" placeholder="{...}" />
+                <marker date="1516620431000" expanded="true" signature="1088:1320" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Apache24/htdocs/blix/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.692307">
+              <caret line="267" column="41" selection-start-line="267" selection-start-column="41" selection-end-line="267" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/blix/blix-main/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2">
-              <caret line="110" column="101" selection-start-line="110" selection-start-column="98" selection-end-line="110" selection-end-column="101" />
+            <state vertical-scroll-proportion="-11.692307">
+              <caret line="265" column="70" selection-start-line="265" selection-start-column="70" selection-end-line="265" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -148,7 +118,6 @@
         <option value="$PROJECT_DIR$/routes/login.js" />
         <option value="$PROJECT_DIR$/routes/reward.js" />
         <option value="$PROJECT_DIR$/views/event_detaIL.ejs" />
-        <option value="$PROJECT_DIR$/views/layouts/footer.ejs" />
         <option value="$PROJECT_DIR$/views/events.ejs" />
         <option value="$PROJECT_DIR$/views/edit_event.ejs" />
         <option value="$PROJECT_DIR$/routes/routes.js" />
@@ -158,11 +127,12 @@
         <option value="$PROJECT_DIR$/views/event_detail.ejs" />
         <option value="$PROJECT_DIR$/views/myevent_detail.ejs" />
         <option value="$PROJECT_DIR$/routes/events.js" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/layouts/header.ejs" />
         <option value="$PROJECT_DIR$/config/passport.js" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/layouts/footer.ejs" />
       </list>
     </option>
   </component>
@@ -414,20 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/passport-local/lib/strategy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5178572">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/passport/lib/http/request.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Apache24/htdocs/survey/admin/templates/create-new-incident_old.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.1824687">
@@ -459,13 +415,6 @@
     <entry file="file://$PROJECT_DIR$/public/js/jquery.swipebox.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jquery.fitvids.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.052158274">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -753,22 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2">
-          <caret line="110" column="101" selection-start-line="110" selection-start-column="98" selection-end-line="110" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/footer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="83" column="56" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.769231">
@@ -811,7 +744,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/passport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47521368">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2224" column="82" selection-start-line="2224" selection-start-column="82" selection-end-line="2224" selection-end-column="82" />
           <folding>
             <element signature="e#898#68500#0" expanded="false" />
@@ -822,6 +755,54 @@
             <element signature="e#35634#37595#0" expanded="false" />
             <element signature="e#68521#70159#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Apache24/htdocs/blix/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.692307">
+          <caret line="267" column="41" selection-start-line="267" selection-start-column="41" selection-end-line="267" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blix/blix-main/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.692307">
+          <caret line="265" column="70" selection-start-line="265" selection-start-column="70" selection-end-line="265" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.884615">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1524575332170" expanded="true" signature="5173:5213" placeholder="..." />
+            <marker date="1524575332170" expanded="true" signature="5214:6015" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.fitvids.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516620431000" expanded="true" signature="685:1368" placeholder="..." />
+            <marker date="1516620431000" expanded="true" signature="730:880" placeholder="{...}" />
+            <marker date="1516620431000" expanded="true" signature="1088:1320" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63506263">
+          <caret line="86" column="67" selection-start-line="86" selection-start-column="67" selection-end-line="86" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
