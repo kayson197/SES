@@ -2222,7 +2222,7 @@ module.exports = function(passport) {
                                             var mailOptions = {
                                                 from: 'sesm.sys@gmail.com',
                                                 to: newUserMysql.username,
-                                                subject: 'Sending Email using Node.js',
+                                                subject: 'SES Account activation',
                                                 text: 'Activate link: '+websiteurl+'/activate/'+activation_code
                                             };
 
