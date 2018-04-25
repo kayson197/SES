@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="479b2b35-bd57-4504-bed1-52a883756c6d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layouts/header.ejs" afterPath="$PROJECT_DIR$/views/layouts/header.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/event_detail.ejs" afterPath="$PROJECT_DIR$/views/event_detail.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/myevent_detail.ejs" afterPath="$PROJECT_DIR$/views/myevent_detail.ejs" />
     </list>
     <ignored path="SES.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,70 +25,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <file leaf-file-name="event_detail.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/event_detail.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.269231">
+              <caret line="22" column="22" selection-start-line="17" selection-start-column="16" selection-end-line="22" selection-end-column="22" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <marker date="1524575332170" expanded="true" signature="5173:5213" placeholder="..." />
-                <marker date="1524575332170" expanded="true" signature="5214:6015" placeholder="..." />
+                <marker date="1524620787791" expanded="true" signature="680:786" placeholder="..." />
+                <marker date="1524620787791" expanded="true" signature="832:938" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layouts/footer.ejs">
+      <file leaf-file-name="myevent_detail.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/myevent_detail.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/layouts/header.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1824687">
-              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.fitvids.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/jquery.fitvids.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33273703">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <marker date="1516620431000" expanded="true" signature="685:1368" placeholder="..." />
-                <marker date="1516620431000" expanded="true" signature="730:880" placeholder="{...}" />
-                <marker date="1516620431000" expanded="true" signature="1088:1320" placeholder="{...}" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Apache24/htdocs/blix/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="267" column="41" selection-start-line="267" selection-start-column="41" selection-end-line="267" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/blix/blix-main/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="265" column="70" selection-start-line="265" selection-start-column="70" selection-end-line="265" selection-end-column="70" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -140,8 +100,6 @@
         <option value="$PROJECT_DIR$/views/myevents.ejs" />
         <option value="$PROJECT_DIR$/public/style.css" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/event_detail.ejs" />
-        <option value="$PROJECT_DIR$/views/myevent_detail.ejs" />
         <option value="$PROJECT_DIR$/routes/events.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app.js" />
@@ -149,6 +107,8 @@
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/layouts/footer.ejs" />
         <option value="$PROJECT_DIR$/views/layouts/header.ejs" />
+        <option value="$PROJECT_DIR$/views/event_detail.ejs" />
+        <option value="$PROJECT_DIR$/views/myevent_detail.ejs" />
       </list>
     </option>
   </component>
@@ -607,20 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/event_detail.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6994633">
-          <caret line="35" column="168" selection-start-line="34" selection-start-column="145" selection-end-line="35" selection-end-column="168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/myevent_detail.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66547406">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/signup.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.115385">
@@ -735,7 +681,7 @@
     </entry>
     <entry file="file://C:/Apache24/htdocs/blix/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.54382825">
           <caret line="267" column="41" selection-start-line="267" selection-start-column="41" selection-end-line="267" selection-end-column="41" />
           <folding />
         </state>
@@ -743,7 +689,7 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/blix/blix-main/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.54382825">
           <caret line="265" column="70" selection-start-line="265" selection-start-column="70" selection-end-line="265" selection-end-column="70" />
           <folding />
         </state>
@@ -755,8 +701,8 @@
           <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <marker date="1524575332170" expanded="true" signature="5173:5213" placeholder="..." />
-            <marker date="1524575332170" expanded="true" signature="5214:6015" placeholder="..." />
+            <marker date="1524575332170" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1524575332170" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -766,9 +712,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1516620431000" expanded="true" signature="685:1368" placeholder="..." />
-            <marker date="1516620431000" expanded="true" signature="730:880" placeholder="{...}" />
-            <marker date="1516620431000" expanded="true" signature="1088:1320" placeholder="{...}" />
+            <marker date="1516620431000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1516620431000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1516620431000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -783,9 +729,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1824687">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.09123435">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/event_detail.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.269231">
+          <caret line="22" column="22" selection-start-line="17" selection-start-column="16" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <marker date="1524620787791" expanded="true" signature="680:786" placeholder="..." />
+            <marker date="1524620787791" expanded="true" signature="832:938" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/myevent_detail.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33273703">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
